@@ -1,7 +1,7 @@
 # awesome-Cross-view
 
 ## Table of contents
-- [Geo-localization](Geo-localization)
+- [Geo-localization](#Geo-localization)
 - Retrieval
 - Synthesis
 
