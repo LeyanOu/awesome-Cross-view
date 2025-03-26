@@ -24,7 +24,7 @@ The recent availability of large amounts of geotagged imagery has inspired a num
 
 [Paper](https://openaccess.thecvf.com/content_cvpr_2013/papers/Lin_Cross-View_Image_Geolocalization_2013_CVPR_paper.pdf) | [BibTeX](./citations/Lin_2013_CVPR.txt)
 
-
+---
 
 ## Synthesis
 
