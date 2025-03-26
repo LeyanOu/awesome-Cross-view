@@ -1,0 +1,7 @@
+@InProceedings{Lin_2013_CVPR,
+author = {Lin, Tsung-Yi and Belongie, Serge and Hays, James},
+title = {Cross-View Image Geolocalization},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2013}
+}
