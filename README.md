@@ -2,9 +2,9 @@
 
 ## Table of contents
 - [Geo-localization](#Geo-localization)
-- Synthesis
+- [Synthesis](#Synthesis)
 
-## Geo-localization
+## Cross-view Geo-localization
 
 ### 1. Cross-view image geo-localization with Panorama-BEV Co-Retrieval Network (ECCV 2024)
 **Authors:** Junyan Ye, Zhutao Lv, Weijia Li, Jinhua Yu, Haote Yang, Huaping Zhong, and Conghui He
@@ -19,7 +19,7 @@ Cross-view geolocalization identifies the geographic location of street view ima
 
 
 
-## Synthesis
+## Cross-view Synthesis
 
 ### 1. Crossviewdiff: A cross-view diffusion model for satellite-to-street view synthesis
 **Authors:** Weijia Li, Jun He, Junyan Ye, Huaping Zhong, Zhimeng Zheng, Zilong Huang, Dahua Lin, Conghui He
