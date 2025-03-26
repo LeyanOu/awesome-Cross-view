@@ -1,8 +1,8 @@
 # awesome-Cross-view
 
 ## Table of contents
-- [Cross-view Geo-localization](#Geo-localization)
-- [Cross-view Synthesis](#Synthesis)
+- [Geo-localization](#Geo-localization)
+- [Synthesis](#Synthesis)
 
 ## Geo-localization
 
