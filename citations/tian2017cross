@@ -1,0 +1,7 @@
+@inproceedings{tian2017cross,
+  title={Cross-view image matching for geo-localization in urban environments},
+  author={Tian, Yicong and Chen, Chen and Shah, Mubarak},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3608--3616},
+  year={2017}
+}
