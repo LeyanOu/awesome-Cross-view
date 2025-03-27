@@ -49,6 +49,22 @@
     ---
 
 1.
+    ###  Fine-Grained Cross-View Geo-Localization Using a Correlation-Aware Homography Estimator [(NeurIPS 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/112d8e0c7563de6e3408b49a09b4d8a3-Abstract-Conference.html)
+  
+    **Authors:** Xiaolong Wang, Runsen Xu, Zhuofan Cui, Zeyu Wan, Yu Zhang
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    In this paper, we introduce a novel approach to fine-grained cross-view geo-localization. Our method aligns a warped ground image with a corresponding GPS-tagged satellite image covering the same area using homography estimation. We first employ a differentiable spherical transform, adhering to geometric principles, to accurately align the perspective of the ground image with the satellite map. This transformation effectively places ground and aerial images in the same view and on the same plane, reducing the task to an image alignment problem. To address challenges such as occlusion, small overlapping range, and seasonal variations, we propose a robust correlation-aware homography estimator to align similar parts of the transformed ground image with the satellite image. Our method achieves sub-pixel resolution and meter-level GPS accuracy by mapping the center point of the transformed ground image to the satellite image using a homography matrix and determining the orientation of the ground camera using a point above the central axis. Operating at a speed of 30 FPS, our method outperforms state-of-the-art techniques, reducing the mean metric localization error by 21.3\% and 32.4\% in same-area and cross-area generalization tasks on the VIGOR benchmark, respectively, and by 34.4\% on the KITTI benchmark in same-area evaluation.
+    </details>
+
+    [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/112d8e0c7563de6e3408b49a09b4d8a3-Paper-Conference.pdf) | [arXiv](https://arxiv.org/abs/2308.16906) | [BibTeX](./citations/wang2023fine)
+    
+    ---
+
+
+
+1.
     ### TransGeo: Transformer Is All You Need for Cross-View Image Geo-Localization [(CVPR 2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_TransGeo_Transformer_Is_All_You_Need_for_Cross-View_Image_Geo-Localization_CVPR_2022_paper.html)
   
     **Authors:** Sijie Zhu, Mubarak Shah, Chen Chen
