@@ -164,6 +164,20 @@
     
     ---
 
+1.
+    ###  Where Am I Looking At? Joint Location and Orientation Estimation by Cross-View Matching [(CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/html/Shi_Where_Am_I_Looking_At_Joint_Location_and_Orientation_Estimation_CVPR_2020_paper.html)
+  
+    **Authors:** Yujiao Shi, Xin Yu, Dylan Campbell, Hongdong Li
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-view geo-localization is the problem of estimating the position and orientation (latitude, longitude and azimuth angle) of a camera at ground level given a large-scale database of geo-tagged aerial (eg., satellite) images. Existing approaches treat the task as a pure location estimation problem by learning discriminative feature descriptors, but neglect orientation alignment. It is well-recognized that knowing the orientation between ground and aerial images can significantly reduce matching ambiguity between these two views, especially when the ground-level images have a limited Field of View (FoV) instead of a full field-of-view panorama. Therefore, we design a Dynamic Similarity Matching network to estimate cross-view orientation alignment during localization. In particular, we address the cross-view domain gap by applying a polar transform to the aerial images to approximately align the images up to an unknown azimuth angle. Then, a two-stream convolutional network is used to learn deep features from the ground and polar-transformed aerial images. Finally, we obtain the orientation by computing the correlation between cross-view features, which also provides a more accurate measure of feature similarity, improving location recall. Experiments on standard datasets demonstrate that our method significantly improves state-of-the-art performance. Remarkably, we improve the top-1 location recall rate on the CVUSA dataset by a factor of 1.5x for panoramas with known orientation, by a factor of 3.3x for panoramas with unknown orientation, and by a factor of 6x for 180-degree FoV images with unknown orientation.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Where_Am_I_Looking_At_Joint_Location_and_Orientation_Estimation_CVPR_2020_paper.pdf) | [arXiv](https://arxiv.org/abs/2005.03860) | [BibTeX](./citations/shi2020looking)
+    
+    ---
+
 
 1.
     ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization[(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
