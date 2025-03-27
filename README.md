@@ -62,6 +62,19 @@
     
     ---
 
+1.
+    ###  Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization [(arXiv 2023)](https://arxiv.org/abs/2302.01572)
+  
+    **Authors:** Yingying Zhu, Hongji Yang, Yuxin Lu, Qiang Huang
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    In this work, we aim at an important but less explored problem of a simple yet effective backbone specific for cross-view geo-localization task. Existing methods for cross-view geo-localization tasks are frequently characterized by 1) complicated methodologies, 2) GPU-consuming computations, and 3) a stringent assumption that aerial and ground images are centrally or orientation aligned. To address the above three challenges for cross-view image matching, we propose a new backbone network, named Simple Attention-based Image Geo-localization network (SAIG). The proposed SAIG effectively represents long-range interactions among patches as well as cross-view correspondence with multi-head self-attention layers. The "narrow-deep" architecture of our SAIG improves the feature richness without degradation in performance, while its shallow and effective convolutional stem preserves the locality, eliminating the loss of patchify boundary information. Our SAIG achieves state-of-the-art results on cross-view geo-localization, while being far simpler than previous works. Furthermore, with only 15.9% of the model parameters and half of the output dimension compared to the state-of-the-art, the SAIG adapts well across multiple cross-view datasets without employing any well-designed feature aggregation modules or feature alignment algorithms. In addition, our SAIG attains competitive scores on image retrieval benchmarks, further demonstrating its generalizability. As a backbone network, our SAIG is both easy to follow and computationally lightweight, which is meaningful in practical scenario. Moreover, we propose a simple Spatial-Mixed feature aggregation moDule (SMD) that can mix and project spatial information into a low-dimensional space to generate feature descriptors
+    </details>
+
+    [Code](https://github.com/yanghongji2007/SAIG) | [arXiv](https://arxiv.org/abs/2302.01572) | [BibTeX](./citations/zhu2023simple)
+    
+    ---
 
 
 1.
