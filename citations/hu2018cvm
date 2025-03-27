@@ -1,0 +1,7 @@
+@inproceedings{hu2018cvm,
+  title={Cvm-net: Cross-view matching network for image-based ground-to-aerial geo-localization},
+  author={Hu, Sixing and Feng, Mengdan and Nguyen, Rang MH and Lee, Gim Hee},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={7258--7267},
+  year={2018}
+}
