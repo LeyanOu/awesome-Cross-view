@@ -1,4 +1,4 @@
-# awesome-Cross-view
+# Cross-view Awesome
 
 ## Table of contents
 - [Geo-localization](#Geo-localization)
