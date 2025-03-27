@@ -1,0 +1,7 @@
+@inproceedings{toker2021coming,
+  title={Coming down to earth: Satellite-to-street view synthesis for geo-localization},
+  author={Toker, Aysim and Zhou, Qunjie and Maximov, Maxim and Leal-Taix{\'e}, Laura},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6488--6497},
+  year={2021}
+}
