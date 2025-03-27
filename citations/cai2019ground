@@ -1,0 +1,7 @@
+@inproceedings{cai2019ground,
+  title={Ground-to-aerial image geo-localization with a hard exemplar reweighting triplet loss},
+  author={Cai, Sudong and Guo, Yulan and Khan, Salman and Hu, Jiwei and Wen, Gongjian},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={8391--8400},
+  year={2019}
+}
