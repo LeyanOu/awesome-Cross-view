@@ -123,6 +123,37 @@
     ---
 
 1.
+    ###  VIGOR: Cross-View Image Geo-Localization Beyond One-to-One Retrieval [(CVPR 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/Zhu_VIGOR_Cross-View_Image_Geo-Localization_Beyond_One-to-One_Retrieval_CVPR_2021_paper.html)
+  
+    **Authors:** Sijie Zhu, Taojiannan Yang, Chen Chen
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-view image geo-localization aims to determine the locations of street-view query images by matching with GPS-tagged reference images from aerial view. Recent works have achieved surprisingly high retrieval accuracy on city-scale datasets. However, these results rely on the assumption that there exists a reference image exactly centered at the location of any query image, which is not applicable for practical scenarios. In this paper, we redefine this problem with a more realistic assumption that the query image can be arbitrary in the area of interest and the reference images are captured before the queries emerge. This assumption breaks the one-to-one retrieval setting of existing datasets as the queries and reference images are not perfectly aligned pairs, and there may be multiple reference images covering one query location. To bridge the gap between this realistic setting and existing datasets, we propose a new large-scale benchmark --VIGOR-- for cross-View Image Geo-localization beyond One-to-one Retrieval. We benchmark existing state-of-the-art methods and propose a novel end-to-end framework to localize the query in a coarse-to-fine manner. Apart from the image-level retrieval accuracy, we also evaluate the localization accuracy in terms of the actual distance (meters) using the raw GPS data. Extensive experiments are conducted under different application scenarios to validate the effectiveness of the proposed method. The results indicate that cross-view geo-localization in this realistic setting is still challenging, fostering new research in this direction. Our dataset and code will be publicly available.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_VIGOR_Cross-View_Image_Geo-Localization_Beyond_One-to-One_Retrieval_CVPR_2021_paper.pdf) | [Code](https://github.com/JeffZilence/VIGOR.
+) | [arXiv](https://arxiv.org/abs/2011.12172) | [BibTeX](./citations/zhu2021vigor)
+    
+    ---
+
+
+1.
+    ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization[(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
+  
+    **Authors:** Zhedong Zheng, Yunchao Wei, Yi Yang
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    We consider the problem of cross-view geo-localization. The primary challenge is to learn the robust feature against large viewpoint changes. Existing benchmarks can help, but are limited in the number of viewpoints. Image pairs, containing two viewpoints, e.g., satellite and ground, are usually provided, which may compromise the feature learning. Besides phone cameras and satellites, in this paper, we argue that drones could serve as the third platform to deal with the geo-localization problem. In contrast to traditional ground-view images, drone-view images meet fewer obstacles, e.g., trees, and provide a comprehensive view when flying around the target place. To verify the effectiveness of the drone platform, we introduce a new multi-view multi-source benchmark for drone-based geo-localization, named University-1652. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation. As the name implies, drone-view target localization intends to predict the location of the target place via drone-view images. On the other hand, given a satellite-view query image, drone navigation is to drive the drone to the area of interest in the query. We use this dataset to analyze a variety of off-the-shelf CNN features and propose a strong CNN baseline on this challenging dataset. The experiments show that University-1652 helps the model to learn viewpoint-invariant features and also has good generalization ability in real-world scenarios.
+    </details>
+
+    [Paper](https://arxiv.org/abs/2002.12186) | [arXiv](https://arxiv.org/pdf/2002.12186) | [BibTeX](./citations/zheng2020university)
+    
+    ---
+
+
+1.
     ### Spatial-Aware Feature Aggregation for Image based Cross-View Geo-Localization [(NeurIPS 2019)](https://proceedings.neurips.cc/paper/2019/hash/ba2f0015122a5955f8b3a50240fb91b2-Abstract.html)
   
     **Authors:** Yujiao Shi, Liu Liu, Xin Yu, Hongdong Li
