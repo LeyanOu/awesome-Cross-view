@@ -1,0 +1,10 @@
+@article{shi2022accurate,
+  title={Accurate 3-DoF camera geo-localization via ground-to-satellite image matching},
+  author={Shi, Yujiao and Yu, Xin and Liu, Liu and Campbell, Dylan and Koniusz, Piotr and Li, Hongdong},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={45},
+  number={3},
+  pages={2682--2697},
+  year={2022},
+  publisher={IEEE}
+}
