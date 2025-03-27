@@ -1,0 +1,7 @@
+@inproceedings{zhu2022transgeo,
+  title={Transgeo: Transformer is all you need for cross-view image geo-localization},
+  author={Zhu, Sijie and Shah, Mubarak and Chen, Chen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1162--1171},
+  year={2022}
+}
