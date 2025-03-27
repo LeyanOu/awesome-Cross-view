@@ -1,6 +1,0 @@
-@article{li2024crossviewdiff,
-  title={Crossviewdiff: A cross-view diffusion model for satellite-to-street view synthesis},
-  author={Li, Weijia and He, Jun and Ye, Junyan and Zhong, Huaping and Zheng, Zhimeng and Huang, Zilong and Lin, Dahua and He, Conghui},
-  journal={arXiv preprint arXiv:2408.14765},
-  year={2024}
-}
