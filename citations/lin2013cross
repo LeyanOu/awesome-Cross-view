@@ -1,0 +1,7 @@
+@inproceedings{lin2013cross,
+  title={Cross-view image geolocalization},
+  author={Lin, Tsung-Yi and Belongie, Serge and Hays, James},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={891--898},
+  year={2013}
+}
