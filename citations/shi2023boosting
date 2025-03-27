@@ -1,0 +1,7 @@
+@inproceedings{shi2023boosting,
+  title={Boosting 3-dof ground-to-satellite camera localization accuracy via geometry-guided cross-view transformer},
+  author={Shi, Yujiao and Wu, Fei and Perincherry, Akhil and Vora, Ankit and Li, Hongdong},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={21516--21526},
+  year={2023}
+}
