@@ -150,6 +150,20 @@
     
     ---
 
+1.
+    ###  Each Part Matters: Local Patterns Facilitate Cross-View Geo-Localization[(TCSVT 2021)](https://ieeexplore.ieee.org/abstract/document/9360609)
+  
+    **Authors:** Tingyu Wang, Zhedong Zheng, Chenggang Yan, Jiyong Zhang, Yaoqi Sun, Bolun Zheng
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-view geo-localization is to spot images of the same geographic target from different platforms, e.g., drone-view cameras and satellites. It is challenging in the large visual appearance changes caused by extreme viewpoint variations. Existing methods usually concentrate on mining the fine-grained feature of the geographic target in the image center, but underestimate the contextual information in neighbor areas. In this work, we argue that neighbor areas can be leveraged as auxiliary information, enriching discriminative clues for geo-localization. Specifically, we introduce a simple and effective deep neural network, called Local Pattern Network (LPN), to take advantage of contextual information in an end-to-end manner. Without using extra part estimators, LPN adopts a square-ring feature partition strategy, which provides the attention according to the distance to the image center. It eases the part matching and enables the part-wise representation learning. Owing to the square-ring partition design, the proposed LPN has good scalability to rotation variations and achieves competitive results on three prevailing benchmarks, i.e., University-1652, CVUSA and CVACT. Besides, we also show the proposed LPN can be easily embedded into other frameworks to further boost performance.
+    </details>
+
+    [Paper](https://arxiv.org/pdf/2008.11646) | [arXiv](https://arxiv.org/abs/2008.11646) | [BibTeX](./citations/wang2021each)
+    
+    ---
+
 
 1.
     ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization[(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
