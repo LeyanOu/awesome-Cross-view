@@ -139,7 +139,7 @@
 1.
     ###  Lending Orientation to Neural Networks for Cross-View Geo-Localization [(CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Lending_Orientation_to_Neural_Networks_for_Cross-View_Geo-Localization_CVPR_2019_paper.html)
   
-    **Authors:** 
+    **Authors:** Liu Liu, Hongdong Li
   
     <details span>
     <summary><b>Abstract</b></summary>
