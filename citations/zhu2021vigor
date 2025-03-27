@@ -1,0 +1,7 @@
+@inproceedings{zhu2021vigor,
+  title={Vigor: Cross-view image geo-localization beyond one-to-one retrieval},
+  author={Zhu, Sijie and Yang, Taojiannan and Chen, Chen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3640--3649},
+  year={2021}
+}
