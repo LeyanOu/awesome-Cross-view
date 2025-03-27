@@ -35,7 +35,7 @@
     ---
 
 1.
-    ### Boosting 3-DoF Ground-to-Satellite Camera Localization Accuracy via Geometry-Guided Cross-View Transformer
+    ### Boosting 3-DoF Ground-to-Satellite Camera Localization Accuracy via Geometry-Guided Cross-View Transformer [(ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/html/Shi_Boosting_3-DoF_Ground-to-Satellite_Camera_Localization_Accuracy_via_Geometry-Guided_Cross-View_Transformer_ICCV_2023_paper.html)
   
     **Authors:** Yujiao Shi, Fei Wu, Akhil Perincherry, Ankit Vora, Hongdong Li
   
@@ -49,7 +49,7 @@
     ---
 
 1.
-    ### TransGeo: Transformer Is All You Need for Cross-View Image Geo-Localization
+    ### TransGeo: Transformer Is All You Need for Cross-View Image Geo-Localization [(CVPR 2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_TransGeo_Transformer_Is_All_You_Need_for_Cross-View_Image_Geo-Localization_CVPR_2022_paper.html)
   
     **Authors:** Sijie Zhu, Mubarak Shah, Chen Chen
   
