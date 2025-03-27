@@ -1,8 +1,0 @@
-@InProceedings{Deuser_2023_ICCV,
-    author    = {Deuser, Fabian and Habel, Konrad and Oswald, Norbert},
-    title     = {Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {16847-16856}
-}

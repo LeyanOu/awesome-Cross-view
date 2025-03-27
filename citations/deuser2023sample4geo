@@ -1,0 +1,7 @@
+@inproceedings{deuser2023sample4geo,
+  title={Sample4geo: Hard negative sampling for cross-view geo-localisation},
+  author={Deuser, Fabian and Habel, Konrad and Oswald, Norbert},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={16847--16856},
+  year={2023}
+}
