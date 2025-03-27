@@ -1,0 +1,7 @@
+@inproceedings{liu2019lending,
+  title={Lending orientation to neural networks for cross-view geo-localization},
+  author={Liu, Liu and Li, Hongdong},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={5624--5633},
+  year={2019}
+}
