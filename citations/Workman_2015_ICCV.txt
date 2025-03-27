@@ -1,7 +1,0 @@
-@InProceedings{Workman_2015_ICCV,
-author = {Workman, Scott and Souvenir, Richard and Jacobs, Nathan},
-title = {Wide-Area Image Geolocalization With Aerial Reference Imagery},
-booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
-month = {December},
-year = {2015}
-}
