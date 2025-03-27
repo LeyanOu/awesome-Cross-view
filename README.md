@@ -35,6 +35,36 @@
     ---
 
 1.
+    ### Accurate 3-DoF Camera Geo-Localization via Ground-to-Satellite Image Matching [(TPAMI 2022)](https://ieeexplore.ieee.org/abstract/document/9826417)
+  
+    **Authors:** Yujiao Shi, Xin Yu, Liu Liu, Dylan Campbell, Piotr Koniusz, and Hongdong Li
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    We address the problem of ground-to-satellite image geo-localization, that is, estimating the camera latitude, longitude and orientation (azimuth angle) by matching a query image captured at the ground level against a large-scale database with geotagged satellite images. Our prior arts treat the above task as pure image retrieval by selecting the most similar satellite reference image matching the ground-level query image. However, such an approach often produces coarse location estimates because the geotag of the retrieved satellite image only corresponds to the image center while the ground camera can be located at any point within the image. To further consolidate our prior research finding, we present a novel geometry-aware geo-localization method. Our new method is able to achieve the fine-grained location of a query image, up to pixel size precision of the satellite image, once its coarse location and orientation have been determined. Moreover, we propose a new geometry-aware image retrieval pipeline to improve the coarse localization accuracy. Apart from a polar transform in our conference work, this new pipeline also maps satellite image pixels to the ground-level plane in the ground-view via a geometry-constrained projective transform to emphasize informative regions, such as road structures, for cross-view geo-localization. Extensive quantitative and qualitative experiments demonstrate the effectiveness of our newly proposed framework. We also significantly improve the performance of coarse localization results compared to the state-of-the-art in terms of location recalls.
+    </details>
+
+    [Paper](https://arxiv.org/pdf/2203.14148)  | [arXiv](https://arxiv.org/abs/2203.14148) | [BibTeX](./citations/yang2021cross)
+    
+    ---
+
+
+1.
+    ### Cross-view Geo-localization with Layer-to-Layer Transformer [(NeurIPS 2021)](https://proceedings.neurips.cc/paper/2021/hash/f31b20466ae89669f9741e047487eb37-Abstract.html)
+  
+    **Authors:** Hongji Yang, Xiufan Lu, Yingying Zhu
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    In this work, we address the problem of cross-view geo-localization, which estimates the geospatial location of a street view image by matching it with a database of geo-tagged aerial images. The cross-view matching task is extremely challenging due to drastic appearance and geometry differences across views. Unlike existing methods that predominantly fall back on CNN, here we devise a novel layer-to-layer Transformer (L2LTR) that utilizes the properties of self-attention in Transformer to model global dependencies, thus significantly decreasing visual ambiguities in cross-view geo-localization. We also exploit the positional encoding of the Transformer to help the L2LTR understand and correspond geometric configurations between ground and aerial images. Compared to state-of-the-art methods that impose strong assumptions on geometry knowledge, the L2LTR flexibly learns the positional embeddings through the training objective. It hence becomes more practical in many real-world scenarios. Although Transformer is well suited to our task, its vanilla self-attention mechanism independently interacts within image patches in each layer, which overlooks correlations between layers. Instead, this paper proposes a simple yet effective self-cross attention mechanism to improve the quality of learned representations. Self-cross attention models global dependencies between adjacent layers and creates short paths for effective information flow. As a result, the proposed self-cross attention leads to more stable training, improves the generalization ability, and prevents the learned intermediate features from being overly similar. Extensive experiments demonstrate that our L2LTR performs favorably against state-of-the-art methods on standard, fine-grained, and cross-dataset cross-view geo-localization tasks. 
+    </details>
+
+    [Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/f31b20466ae89669f9741e047487eb37-Paper.pdf) | [Code](https://github.com/yanghongji2007/cross_view_localization_L2LTR)  | [BibTeX](./citations/)
+    
+    ---
+
+
+1.
     ### Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization [(CVPR 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/Toker_Coming_Down_to_Earth_Satellite-to-Street_View_Synthesis_for_Geo-Localization_CVPR_2021_paper.html)
   
     **Authors:** Aysim Toker, Qunjie Zhou, Maxim Maximov, Laura Leal-Taixe
