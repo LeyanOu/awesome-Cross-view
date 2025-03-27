@@ -21,6 +21,21 @@
     ---
 
 1.
+    ### Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation [(ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/html/Deuser_Sample4Geo_Hard_Negative_Sampling_For_Cross-View_Geo-Localisation_ICCV_2023_paper.html)
+  
+    **Authors:** Fabian Deuser, Konrad Habel, Norbert Oswald
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-View Geo-Localisation is still a challenging task where additional modules, specific pre-processing or zooming strategies are necessary to determine accurate positions of images. Since different views have different geometries, pre-processing like polar transformation helps to merge them. However, this results in distorted images which then have to be rectified. Adding hard negatives to the training batch could improve the overall performance but with the default loss functions in geo-localisation it is difficult to include them. In this article, we present a simplified but effective architecture based on contrastive learning with symmetric InfoNCE loss that outperforms current state-of-the-art results. Our framework consists of a narrow training pipeline that eliminates the need of using aggregation modules, avoids further pre-processing steps and even increases the generalisation capability of the model to unknown regions. We introduce two types of sampling strategies for hard negatives. The first explicitly exploits geographically neighboring locations to provide a good starting point. The second leverages the visual similarity between the image embeddings in order to mine hard negative samples. Our work shows excellent performance on common cross-view datasets like CVUSA, CVACT, University-1652 and VIGOR. A comparison between cross-area and same-area settings demonstrate the good generalisation capability of our model.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Deuser_Sample4Geo_Hard_Negative_Sampling_For_Cross-View_Geo-Localisation_ICCV_2023_paper.pdf) | [arXiv](https://arxiv.org/abs/2303.11851) | [BibTeX](./citations/)
+    
+    ---
+
+
+1.
     ### Cross-View Image Matching for Geo-Localization in Urban Environments [(CVPR 2017)](https://openaccess.thecvf.com/content_cvpr_2017/html/Tian_Cross-View_Image_Matching_CVPR_2017_paper.html)
   
     **Authors:** Yicong Tian, Chen Chen, Mubarak Shah
