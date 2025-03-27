@@ -179,16 +179,16 @@
     ---
 
 1.
-    ###  [()]()
+    ###  Optimal feature transport for crossview image geo-localization [(AAAI 2020)](https://ojs.aaai.org/index.php/AAAI/article/view/6875)
   
-    **Authors:** 
+    **Authors:** Yujiao Shi, Xin Yu, Liu Liu, Tong Zhang, Hongdong Li
   
     <details span>
     <summary><b>Abstract</b></summary>
-    
+    This paper addresses the problem of cross-view image geo-localization, where the geographic location of a ground-level street-view query image is estimated by matching it against a large scale aerial map (e.g., a high-resolution satellite image). State-of-the-art deep-learning based methods tackle this problem as deep metric learning which aims to learn global feature representations of the scene seen by the two different views. Despite promising results are obtained by such deep metric learning methods, they, however, fail to exploit a crucial cue relevant for localization, namely, the spatial layout of local features. Moreover, little attention is paid to the obvious domain gap (between aerial view and ground view) in the context of cross-view localization. This paper proposes a novel Cross-View Feature Transport (CVFT) technique to explicitly establish cross-view domain transfer that facilitates feature alignment between ground and aerial images. Specifically, we implement the CVFT as network layers, which transports features from one domain to the other, leading to more meaningful feature similarity comparison. Our model is differentiable and can be learned end-to-end. Experiments on large-scale datasets have demonstrated that our method has remarkably boosted the state-of-the-art cross-view localization performance, e.g., on the CVUSA dataset, with significant improvements for top-1 recall from 40.79% to 61.43%, and for top-10 from 76.36% to 90.49%. We expect the key insight of the paper (i.e., explicitly handling domain difference via domain transport) will prove to be useful for other similar problems in computer vision as well.
     </details>
 
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/6875/6729) | [arXiv](https://arxiv.org/abs/1907.05021) | [BibTeX](./citations/shi2020optimal)
     
     ---
 
