@@ -1,0 +1,9 @@
+@inproceedings{shi2020optimal,
+  title={Optimal feature transport for cross-view image geo-localization},
+  author={Shi, Yujiao and Yu, Xin and Liu, Liu and Zhang, Tong and Li, Hongdong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={07},
+  pages={11990--11997},
+  year={2020}
+}
