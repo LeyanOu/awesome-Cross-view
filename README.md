@@ -178,6 +178,20 @@
     
     ---
 
+1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
 
 1.
     ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization[(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
@@ -190,6 +204,20 @@
     </details>
 
     [Paper](https://arxiv.org/abs/2002.12186) | [arXiv](https://arxiv.org/pdf/2002.12186) | [BibTeX](./citations/zheng2020university)
+    
+    ---
+
+1.
+    ###  Ground-to-Aerial Image Geo-Localization With a Hard Exemplar Reweighting Triplet Loss [(ICCV 2019)](https://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Ground-to-Aerial_Image_Geo-Localization_With_a_Hard_Exemplar_Reweighting_Triplet_Loss_ICCV_2019_paper.html)
+  
+    **Authors:** Sudong Cai, Yulan Guo, Salman Khan, Jiwei Hu, Gongjian Wen
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    The task of ground-to-aerial image geo-localization can be achieved by matching a ground view query image to a reference database of aerial/satellite images. It is highly challenging due to the dramatic viewpoint changes and unknown orientations. In this paper, we propose a novel in-batch reweighting triplet loss to emphasize the positive effect of hard exemplars during end-to-end training. We also integrate an attention mechanism into our model using feature-level contextual information. To analyze the difficulty level of each triplet, we first enforce a modified logistic regression to triplets with a distance rectifying factor. Then, the reference negative distances for corresponding anchors are set, and the relative weights of triplets are computed by comparing their difficulty to the corresponding references. To reduce the influence of extreme hard data and less useful simple exemplars, the final weights are pruned using upper and lower bound constraints. Experiments on two benchmark datasets show that the proposed approach significantly outperforms the state-of-the-art methods.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cai_Ground-to-Aerial_Image_Geo-Localization_With_a_Hard_Exemplar_Reweighting_Triplet_Loss_ICCV_2019_paper.pdf) | [BibTeX](./citations/cai2019ground)
     
     ---
 
@@ -218,8 +246,21 @@
     This paper studies image-based geo-localization (IBL) problem using ground-to-aerial cross-view matching. The goal is to predict the spatial location of a ground-level query image by matching it to a large geotagged aerial image database (e.g., satellite imagery). This is a challenging task due to the drastic differences in their viewpoints and visual appearances. Existing deep learning methods for this problem have been focused on maximizing feature similarity between spatially close-by image pairs, while minimizing other images pairs which are far apart. They do so by deep feature embedding based on visual appearance in those ground-and-aerial images. However, in everyday life, humans commonly use orientation information as an important cue for the task of spatial localization. Inspired by this insight, this paper proposes a novel method which endows deep neural networks with the `commonsense' of orientation. Given a ground-level spherical panoramic image as query input (and a large georeferenced satellite image database), we design a Siamese network which explicitly encodes the orientation (i.e., spherical directions) of each pixel of the images. Our method significantly boosts the discriminative power of the learned deep features, leading to a much higher recall and precision outperforming all previous methods. Our network is also more compact using only 1/5th number of parameters than a previously best-performing network. To evaluate the generalization of our method, we also created a large-scale cross-view localization benchmark containing 100K geotagged ground-aerial pairs covering a city. Our codes and datasets are available at https://github.com/Liumouliu/OriCNN.
     </details>
 
-    [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Lending_Orientation_to_Neural_Networks_for_Cross-View_Geo-Localization_CVPR_2019_paper.pdf) | [Code](https://github.com/Liumouliu/OriCNN.
-) | [arXiv](https://arxiv.org/abs/1903.12351) | [BibTeX](./citations/liu2019lending)
+    [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Lending_Orientation_to_Neural_Networks_for_Cross-View_Geo-Localization_CVPR_2019_paper.pdf) | [Code](https://github.com/Liumouliu/OriCNN.) | [arXiv](https://arxiv.org/abs/1903.12351) | [BibTeX](./citations/liu2019lending)
+    
+    ---
+
+1.
+    ###  CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization [(CVPR 2018)](https://openaccess.thecvf.com/content_cvpr_2018/html/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.html)
+  
+    **Authors:** Sixing Hu, Mengdan Feng, Rang M. H. Nguyen, Gim Hee Lee
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    The problem of localization on a geo-referenced aerial/satellite map given a query ground view image remains challenging due to the drastic change in viewpoint that causes traditional image descriptors based matching to fail. We leverage on the recent success of deep learning to propose the CVM-Net for the cross-view image-based ground-to-aerial geo-localization task. Specifically, our network is based on the Siamese architecture to do metric learning for the matching task. We first use the fully convolutional layers to extract local image features, which are then encoded into global image descriptors using the powerful NetVLAD. As part of the training procedure, we also introduce a simple yet effective weighted soft margin ranking loss function that not only speeds up the training convergence but also improves the final matching accuracy. Experimental results show that our proposed network significantly outperforms the state-of-the-art approaches on two existing benchmarking datasets.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.pdf) | [BibTeX](./citations/hu2018cvm)
     
     ---
 
