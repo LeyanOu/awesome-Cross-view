@@ -1,8 +1,0 @@
-@InProceedings{Zhu_2022_CVPR,
-    author    = {Zhu, Sijie and Shah, Mubarak and Chen, Chen},
-    title     = {TransGeo: Transformer Is All You Need for Cross-View Image Geo-Localization},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {1162-1171}
-}
