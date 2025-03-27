@@ -138,7 +138,7 @@
 1. 
     ### Localizing and Orienting Street Views Using Overhead Imagery [(ECCV 2016)](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_30)
 
-    **Authors:** Nam N. Vo & James Hays
+    **Authors:** Nam N. Vo, James Hays
 
     <details span>
     <summary><b>Abstract</b></summary>
