@@ -151,7 +151,7 @@
     ---
 
 1.
-    ###  Each Part Matters: Local Patterns Facilitate Cross-View Geo-Localization[(TCSVT 2021)](https://ieeexplore.ieee.org/abstract/document/9360609)
+    ###  Each Part Matters: Local Patterns Facilitate Cross-View Geo-Localization [(TCSVT 2021)](https://ieeexplore.ieee.org/abstract/document/9360609)
   
     **Authors:** Tingyu Wang, Zhedong Zheng, Chenggang Yan, Jiyong Zhang, Yaoqi Sun, Bolun Zheng
   
@@ -194,7 +194,7 @@
 
 
 1.
-    ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization[(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
+    ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization [(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
   
     **Authors:** Zhedong Zheng, Yunchao Wei, Yi Yang
   
