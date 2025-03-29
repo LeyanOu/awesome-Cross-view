@@ -9,7 +9,7 @@
 1.
     ### Cross-view image geo-localization with Panorama-BEV Co-Retrieval Network [(ECCV 2024)](https://link.springer.com/chapter/10.1007/978-3-031-72913-3_5)
   
-    **Authors:** Junyan Ye, Zhutao Lv, Weijia Li, Jinhua Yu, Haote Yang, Huaping Zhong, and Conghui He
+    **Authors:** Junyan Ye, Zhutao Lv, Weijia Li, Jinhua Yu, Haote Yang, Huaping Zhong, Conghui He
   
     <details span>
     <summary><b>Abstract</b></summary>
@@ -94,7 +94,7 @@
 1.
     ### Accurate 3-DoF Camera Geo-Localization via Ground-to-Satellite Image Matching [(TPAMI 2022)](https://ieeexplore.ieee.org/abstract/document/9826417)
   
-    **Authors:** Yujiao Shi, Xin Yu, Liu Liu, Dylan Campbell, Piotr Koniusz, and Hongdong Li
+    **Authors:** Yujiao Shi, Xin Yu, Liu Liu, Dylan Campbell, Piotr Koniusz, Hongdong Li
   
     <details span>
     <summary><b>Abstract</b></summary>
