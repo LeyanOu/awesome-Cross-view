@@ -334,6 +334,19 @@
 
     ---
 
+1.
+    ###  Geo-localization of street views with aerial image databases [(MM 2011)](https://dl.acm.org/doi/abs/10.1145/2072298.2071954)
+  
+    **Authors:** Mayank Bansal, Harpreet S. Sawhney, Hui Cheng, Kostas Daniilidis
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    We study the feasibility of solving the challenging problem of geolocalizing ground level images in urban areas with respect to a database of images captured from the air such as satellite and oblique aerial images. We observe that comprehensive aerial image databases are widely available while complete coverage of urban areas from the ground is at best spotty. As a result, localization of ground level imagery with respect to aerial collections is a technically important and practically significant problem. We exploit two key insights: (1) satellite image to oblique aerial image correspondences are used to extract building facades, and (2) building facades are matched between oblique aerial and ground images for geo-localization. Key contributions include: (1) A novel method for extracting building facades using building outlines; (2) Correspondence of building facades between oblique aerial and ground images without direct matching; and (3) Position and orientation estimation of ground images. We show results of ground image localization in a dense urban area.
+    </details>
+
+    [Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=84d35acd00078fc4ae8cc2dd99b68e83f59eecd2) | [BibTeX](./citations/bansal2011geo)
+    
+    ---
 
 
 <p>&nbsp;</p>
