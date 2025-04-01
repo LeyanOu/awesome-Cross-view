@@ -49,7 +49,7 @@
     ---
 
 1.
-    ###  Cross-View Geo-Localization via Learning Disentangled Geometric Layout Correspondence [(AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/25457)
+    ###  Cross-View Geo-Localization via Learning Disentangled Geometric Layout Correspondence [(AAAI 2023)](https://ojs.aaai.org/index.php/AAAI/article/view/25457)
   
     **Authors:** Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah
   
