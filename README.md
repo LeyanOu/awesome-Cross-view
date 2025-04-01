@@ -49,6 +49,20 @@
     ---
 
 1.
+    ###  Cross-View Geo-Localization via Learning Disentangled Geometric Layout Correspondence [(AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/25457)
+  
+    **Authors:** Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-view geo-localization aims to estimate the location of a query ground image by matching it to a reference geo-tagged aerial images database. As an extremely challenging task, its difficulties root in the drastic view changes and different capturing time between two views. Despite these difficulties, recent works achieve outstanding progress on cross-view geo-localization benchmarks. However, existing methods still suffer from poor performance on the cross-area benchmarks, in which the training and testing data are captured from two different regions. We attribute this deficiency to the lack of ability to extract the spatial configuration of visual feature layouts and models' overfitting on low-level details from the training set. In this paper, we propose GeoDTR which explicitly disentangles geometric information from raw features and learns the spatial correlations among visual features from aerial and ground pairs with a novel geometric layout extractor module. This module generates a set of geometric layout descriptors, modulating the raw features and producing high-quality latent representations. In addition, we elaborate on two categories of data augmentations, (i) Layout simulation, which varies the spatial configuration while keeping the low-level details intact. (ii) Semantic augmentation, which alters the low-level details and encourages the model to capture spatial configurations. These augmentations help to improve the performance of the cross-view geo-localization models, especially on the cross-area benchmarks. Moreover, we propose a counterfactual-based learning process to benefit the geometric layout extractor in exploring spatial information. Extensive experiments show that GeoDTR not only achieves state-of-the-art results but also significantly boosts the performance on same-area and cross-area benchmarks. Our code can be found at https://gitlab.com/vail-uvm/geodtr.
+    </details>
+
+    [Paper](https://arxiv.org/pdf/2212.04074) | [Code](https://gitlab.com/vail-uvm/geodtr) | [arXiv](https://arxiv.org/abs/2212.04074) | [BibTeX](./citations/zhang2023cross)
+    
+    ---
+
+1.
     ###  Fine-Grained Cross-View Geo-Localization Using a Correlation-Aware Homography Estimator [(NeurIPS 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/112d8e0c7563de6e3408b49a09b4d8a3-Abstract-Conference.html)
   
     **Authors:** Xiaolong Wang, Runsen Xu, Zhuofan Cui, Zeyu Wan, Yu Zhang
