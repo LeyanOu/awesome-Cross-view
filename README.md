@@ -90,7 +90,6 @@
     
     ---
 
-
 1.
     ### TransGeo: Transformer Is All You Need for Cross-View Image Geo-Localization [(CVPR 2022)](https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_TransGeo_Transformer_Is_All_You_Need_for_Cross-View_Image_Geo-Localization_CVPR_2022_paper.html)
   
@@ -119,7 +118,6 @@
     
     ---
 
-
 1.
     ### Cross-view Geo-localization with Layer-to-Layer Transformer [(NeurIPS 2021)](https://proceedings.neurips.cc/paper/2021/hash/f31b20466ae89669f9741e047487eb37-Abstract.html)
   
@@ -133,7 +131,6 @@
     [Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/f31b20466ae89669f9741e047487eb37-Paper.pdf) | [Code](https://github.com/yanghongji2007/cross_view_localization_L2LTR)  | [BibTeX](./citations/yang2021cross)
     
     ---
-
 
 1.
     ### Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization [(CVPR 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/Toker_Coming_Down_to_Earth_Satellite-to-Street_View_Synthesis_for_Geo-Localization_CVPR_2021_paper.html)
@@ -205,7 +202,6 @@
     
     ---
 
-
 1.
     ###  University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization [(MM 2020)](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)
   
@@ -233,7 +229,6 @@
     [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cai_Ground-to-Aerial_Image_Geo-Localization_With_a_Hard_Exemplar_Reweighting_Triplet_Loss_ICCV_2019_paper.pdf) | [BibTeX](./citations/cai2019ground)
     
     ---
-
 
 1.
     ### Spatial-Aware Feature Aggregation for Image based Cross-View Geo-Localization [(NeurIPS 2019)](https://proceedings.neurips.cc/paper/2019/hash/ba2f0015122a5955f8b3a50240fb91b2-Abstract.html)
@@ -348,15 +343,13 @@
     
     ---
 
-
 <p>&nbsp;</p>
-
 
 
 ## Synthesis
  
 1.
-    ### Crossviewdiff: A cross-view diffusion model for satellite-to-street view synthesis
+    ### Crossviewdiff: A cross-view diffusion model for satellite-to-street view synthesis [(arXiv 2024)](https://arxiv.org/abs/2408.14765)
   
     **Authors:** Weijia Li, Jun He, Junyan Ye, Huaping Zhong, Zhimeng Zheng, Zilong Huang, Dahua Lin, Conghui He
   
@@ -365,6 +358,39 @@
     Satellite-to-street view synthesis aims at generating a realistic street-view image from its corresponding satellite-view image. Although stable diffusion models have exhibit remarkable performance in a variety of image generation applications, their reliance on similar-view inputs to control the generated structure or texture restricts their application to the challenging cross-view synthesis task. In this work, we propose CrossViewDiff, a cross-view diffusion model for satellite-to-street view synthesis. To address the challenges posed by the large discrepancy across views, we design the satellite scene structure estimation and cross-view texture mapping modules to construct the structural and textural controls for street-view image synthesis. We further design a cross-view control guided denoising process that incorporates the above controls via an enhanced cross-view attention module. To achieve a more comprehensive evaluation of the synthesis results, we additionally design a GPT-based scoring method as a supplement to standard evaluation metrics. We also explore the effect of different data sources (e.g., text, maps, building heights, and multi-temporal satellite imagery) on this task. Results on three public cross-view datasets show that CrossViewDiff outperforms current state-of-the-art on both standard and GPT-based evaluation metrics, generating high-quality street-view panoramas with more realistic structures and textures across rural, suburban, and urban scenes.
     </details>
 
-    [Paper](https://arxiv.org/pdf/2408.14765) | [Code](https://opendatalab.github.io/CrossViewDiff/) | [BibTeX](./citations/li2024crossviewdiff.txt)
+    [Paper](https://arxiv.org/pdf/2408.14765) | [Code](https://opendatalab.github.io/CrossViewDiff/) | [arXiv](https://arxiv.org/abs/2408.14765) | [BibTeX](./citations/li2024crossviewdiff.txt)
   
     ---
+
+1.
+    ###  Geometry-guided street-view panorama synthesis from satellite imagery [(TPAMI 2022)](https://ieeexplore.ieee.org/abstract/document/9674229)
+  
+    **Authors:** Yujiao Shi, Dylan Campbell, Xin Yu, Hongdong Li
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    This paper presents a new approach for synthesizing a novel street-view panorama given a satellite image, as if captured from the geographical location at the center of the satellite image. Existing works approach this as an image generation problem, adopting generative adversarial networks to implicitly learn the cross-view transformations, but ignore the geometric constraints. In this paper, we make the geometric correspondences between the satellite and street-view images explicit so as to facilitate the transfer of information between domains. Specifically, we observe that when a 3D point is visible in both views, and the height of the point relative to the camera is known, there is a deterministic mapping between the projected points in the images. Motivated by this, we develop a novel satellite to street-view projection (S2SP) module which learns the height map and projects the satellite image to the ground-level viewpoint, explicitly connecting corresponding pixels. With these projected satellite images as input, we next employ a generator to synthesize realistic street-view panoramas that are geometrically consistent with the satellite images. Our S2SP module is differentiable and the whole framework is trained in an end-to-end manner. Extensive experimental results on two cross-view benchmark datasets demonstrate that our method generates more accurate and consistent images than existing approaches.
+    </details>
+
+    [Paper](https://arxiv.org/pdf/2103.01623) | [arXiv](https://arxiv.org/abs/2103.01623) | [BibTeX](./citations/shi2022geometry)
+    
+    ---
+
+1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+
+
+
+
