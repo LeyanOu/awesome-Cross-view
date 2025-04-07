@@ -358,8 +358,22 @@
     Satellite-to-street view synthesis aims at generating a realistic street-view image from its corresponding satellite-view image. Although stable diffusion models have exhibit remarkable performance in a variety of image generation applications, their reliance on similar-view inputs to control the generated structure or texture restricts their application to the challenging cross-view synthesis task. In this work, we propose CrossViewDiff, a cross-view diffusion model for satellite-to-street view synthesis. To address the challenges posed by the large discrepancy across views, we design the satellite scene structure estimation and cross-view texture mapping modules to construct the structural and textural controls for street-view image synthesis. We further design a cross-view control guided denoising process that incorporates the above controls via an enhanced cross-view attention module. To achieve a more comprehensive evaluation of the synthesis results, we additionally design a GPT-based scoring method as a supplement to standard evaluation metrics. We also explore the effect of different data sources (e.g., text, maps, building heights, and multi-temporal satellite imagery) on this task. Results on three public cross-view datasets show that CrossViewDiff outperforms current state-of-the-art on both standard and GPT-based evaluation metrics, generating high-quality street-view panoramas with more realistic structures and textures across rural, suburban, and urban scenes.
     </details>
 
-    [Paper](https://arxiv.org/pdf/2408.14765) | [Code](https://opendatalab.github.io/CrossViewDiff/) | [arXiv](https://arxiv.org/abs/2408.14765) | [BibTeX](./citations/li2024crossviewdiff.txt)
+    [Paper](https://arxiv.org/pdf/2408.14765) | [Code](https://opendatalab.github.io/CrossViewDiff/) | [arXiv](https://arxiv.org/abs/2408.14765) | [BibTeX](./citations/li2024crossviewdiff)
   
+    ---
+
+1.
+    ###  Sat2Density: Faithful Density Learning from Satellite-Ground Image Pairs [(ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/html/Qian_Sat2Density_Faithful_Density_Learning_from_Satellite-Ground_Image_Pairs_ICCV_2023_paper.html)
+  
+    **Authors:** Ming Qian, Jincheng Xiong, Gui-Song Xia, Nan Xue
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    This paper aims to develop an accurate 3D geometry representation of satellite images using satellite-ground image pairs. Our focus is on the challenging problem of 3D-aware ground-views synthesis from a satellite image. We draw inspiration from the density field representation used in volumetric neural rendering and propose a new approach, called Sat2Density. Our method utilizes the properties of ground-view panoramas for the sky and non-sky regions to learn faithful density fields of 3D scenes in a geometric perspective. Unlike other methods that require extra depth information during training, our Sat2Density can automatically learn accurate and faithful 3D geometry via density representation without depth supervision. This advancement significantly improves the ground-view panorama synthesis task. Additionally, our study provides a new geometric perspective to understand the relationship between satellite and ground-view images in 3D space.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Qian_Sat2Density_Faithful_Density_Learning_from_Satellite-Ground_Image_Pairs_ICCV_2023_paper.pdf) | [arXiv](https://arxiv.org/abs/2303.14672) | [BibTeX](./citations/qian2023sat2density)
+    
     ---
 
 1.
@@ -376,19 +390,7 @@
     
     ---
 
-1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
 
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
 
 
 
