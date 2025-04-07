@@ -1,0 +1,7 @@
+@inproceedings{qian2023sat2density,
+  title={Sat2density: Faithful density learning from satellite-ground image pairs},
+  author={Qian, Ming and Xiong, Jincheng and Xia, Gui-Song and Xue, Nan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3683--3692},
+  year={2023}
+}
