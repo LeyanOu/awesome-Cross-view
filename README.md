@@ -390,8 +390,143 @@
     
     ---
 
+1.
+    ###  Geometry-Aware Satellite-to-Ground Image Synthesis for Urban Areas [(CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/html/Lu_Geometry-Aware_Satellite-to-Ground_Image_Synthesis_for_Urban_Areas_CVPR_2020_paper.html)
+  
+    **Authors:** Xiaohu Lu, Zuoyue Li, Zhaopeng Cui, Martin R. Oswald, Marc Pollefeys, Rongjun Qin
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    We present a novel method for generating panoramic street-view images which are geometrically consistent with a given satellite image. Different from existing approaches that completely rely on a deep learning architecture to generalize cross-view image distributions, our approach explicitly loops in the geometric configuration of the ground objects based on the satellite views, such that the produced ground view synthesis preserves the geometric shape and the semantics of the scene. In particular, we propose a neural network with a geo-transformation layer that turns predicted ground-height values from the satellite view to a ground view while retaining the physical satellite-to-ground relation. Our results show that the synthesized image retains well-articulated and authentic geometric shapes, as well as texture richness of the street-view in various scenarios. Both qualitative and quantitative results demonstrate that our method compares favorably to other state-of-the-art approaches that lack geometric consistency.
+    </details>
 
+    [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_Geometry-Aware_Satellite-to-Ground_Image_Synthesis_for_Urban_Areas_CVPR_2020_paper.pdf) | [BibTeX](./citations/lu2020geometry)
+    
+1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
 
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+  1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
+
+    1.
+    ###  [()]()
+  
+    **Authors:** 
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    
+    </details>
+
+    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    
+    ---
 
 
 
