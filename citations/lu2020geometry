@@ -1,0 +1,7 @@
+@inproceedings{lu2020geometry,
+  title={Geometry-aware satellite-to-ground image synthesis for urban areas},
+  author={Lu, Xiaohu and Li, Zuoyue and Cui, Zhaopeng and Oswald, Martin R and Pollefeys, Marc and Qin, Rongjun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={859--867},
+  year={2020}
+}
