@@ -403,16 +403,16 @@
     [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_Geometry-Aware_Satellite-to-Ground_Image_Synthesis_for_Urban_Areas_CVPR_2020_paper.pdf) | [BibTeX](./citations/lu2020geometry)
     
 1.
-    ###  [()]()
+    ###  Predicting ground-level scene layout from aerial imagery [(CVPR 2017)](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.html)
   
-    **Authors:** 
+    **Authors:** Menghua Zhai, Zachary Bessinger, Scott Workman, Nathan Jacobs
   
     <details span>
     <summary><b>Abstract</b></summary>
-    
+    We introduce a novel strategy for learning to extract semantically meaningful features from aerial imagery. Instead of manually labeling the aerial imagery, we propose to predict (noisy) semantic features automatically extracted from co-located ground imagery. Our network architecture takes an aerial image as input, extracts features using a convolutional neural network, and then applies an adaptive transformation to map these features into the ground-level perspective. We use an end-to-end learning approach to minimize the difference between the semantic segmentation extracted directly from the ground image and the semantic segmentation predicted solely based on the aerial image. We show that a model learned using this strategy, with no additional training, is already capable of rough semantic labeling of aerial imagery. Furthermore, we demonstrate that by finetuning this model we can achieve more accurate semantic segmentation than two baseline initialization strategies. We use our network to address the task of estimating the geolocation and geo-orientation of a ground image. Finally, we show how features extracted from an aerial image can be used to hallucinate a plausible ground-level panorama.
     </details>
 
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
+    [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.pdf) | [arXiv](https://arxiv.org/abs/1612.02709v1) | [BibTeX](./citations/zhai2017predicting)
     
     ---
 
