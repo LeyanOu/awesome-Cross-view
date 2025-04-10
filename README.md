@@ -390,6 +390,34 @@
     
     ---
 
+    1.
+    ###  Cross-View Panorama Image Synthesis [(TMM 2022)](https://ieeexplore.ieee.org/abstract/document/9743312)
+  
+    **Authors:** Songsong Wu, Hao Tang, Xiao-Yuan Jing, Haifeng Zhao, Jianjun Qian, Nicu Sebe
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    In this paper, we tackle the problem of synthesizing a ground-view panorama image conditioned on a top-view aerial image, which is a challenging problem due to the large gap between the two image domains with different view-points. Instead of learning cross-view mapping in a feedforward pass, we propose a novel adversarial feedback GAN framework named PanoGAN with two key components: an adversarial feedback module and a dual branch discrimination strategy. First, the aerial image is fed into the generator to produce a target panorama image and its associated segmentation map in favor of model training with layout semantics. Second, the feature responses of the discriminator encoded by our adversarial feedback module are fed back to the generator to refine the intermediate representations, so that the generation performance is continually improved through an iterative generation process. Third, to pursue high-fidelity and semantic consistency of the generated panorama image, we propose a pixel-segmentation alignment mechanism under the dual branch discrimiantion strategy to facilitate cooperation between the generator and the discriminator. Extensive experimental results on two challenging cross-view image datasets show that PanoGAN enables high-quality panorama image generation with more convincing details than state-of-the-art approaches. The source code and trained models are available at https://github.com/sswuai/PanoGAN.
+    </details>
+
+    [Paper](https://arxiv.org/pdf/2203.11832) | [Code](https://github.com/sswuai/PanoGAN) | [arXiv](https://arxiv.org/abs/2203.11832) | [BibTeX](./citations/wu2022cross)
+    
+    ---
+
+1.
+    ### Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization [(CVPR 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/Toker_Coming_Down_to_Earth_Satellite-to-Street_View_Synthesis_for_Geo-Localization_CVPR_2021_paper.html)
+  
+    **Authors:** Aysim Toker, Qunjie Zhou, Maxim Maximov, Laura Leal-Taixe
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    The goal of cross-view image based geo-localization is to determine the location of a given street view image by matching it against a collection of geo-tagged satellite images. This task is notoriously challenging due to the drastic viewpoint and appearance differences between the two domains. We show that we can address this discrepancy explicitly by learning to synthesize realistic street views from satellite inputs. Following this observation, we propose a novel multi-task architecture in which image synthesis and retrieval are considered jointly. The rationale behind this is that we can bias our network to learn latent feature representations that are useful for retrieval if we utilize them to generate images across the two input domains. To the best of our knowledge, ours is the first approach that creates realistic street views from satellite images and localizes the corresponding query street view simultaneously in an end-to-end manner. In our experiments, we obtain state-of-the-art performance on the CVUSA and CVACT benchmarks. Finally, we show compelling qualitative results for satellite-to-street view synthesis.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Toker_Coming_Down_to_Earth_Satellite-to-Street_View_Synthesis_for_Geo-Localization_CVPR_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2103.06818) | [BibTeX](./citations/toker2021coming)
+    
+    ---
+
 1.
     ###  Geometry-Aware Satellite-to-Ground Image Synthesis for Urban Areas [(CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/html/Lu_Geometry-Aware_Satellite-to-Ground_Image_Synthesis_for_Urban_Areas_CVPR_2020_paper.html)
   
@@ -446,89 +474,6 @@
     
     ---
 
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
 
 
 
