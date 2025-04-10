@@ -1,0 +1,7 @@
+@inproceedings{zhai2017predicting,
+  title={Predicting ground-level scene layout from aerial imagery},
+  author={Zhai, Menghua and Bessinger, Zachary and Workman, Scott and Jacobs, Nathan},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={867--875},
+  year={2017}
+}
