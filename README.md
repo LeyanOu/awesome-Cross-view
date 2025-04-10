@@ -390,7 +390,7 @@
     
     ---
 
-    1.
+1.
     ###  Cross-View Panorama Image Synthesis [(TMM 2022)](https://ieeexplore.ieee.org/abstract/document/9743312)
   
     **Authors:** Songsong Wu, Hao Tang, Xiao-Yuan Jing, Haifeng Zhao, Jianjun Qian, Nicu Sebe
