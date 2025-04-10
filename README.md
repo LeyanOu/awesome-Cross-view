@@ -7,7 +7,7 @@
 ## Geo-localization
 
 1.
-    ### Cross-view image geo-localization with Panorama-BEV Co-Retrieval Network [(ECCV 2024)](https://link.springer.com/chapter/10.1007/978-3-031-72913-3_5)
+    ### Cross-View Image Geo-Localization with Panorama-BEV Co-retrieval Network [(ECCV 2024)](https://link.springer.com/chapter/10.1007/978-3-031-72913-3_5)
   
     **Authors:** Junyan Ye, Zhutao Lv, Weijia Li, Jinhua Yu, Haote Yang, Huaping Zhong, Conghui He
   
@@ -189,7 +189,7 @@
     ---
 
 1.
-    ###  Optimal feature transport for crossview image geo-localization [(AAAI 2020)](https://ojs.aaai.org/index.php/AAAI/article/view/6875)
+    ###  Optimal Feature Transport for Cross-View Image Geo-Localization [(AAAI 2020)](https://ojs.aaai.org/index.php/AAAI/article/view/6875)
   
     **Authors:** Yujiao Shi, Xin Yu, Liu Liu, Tong Zhang, Hongdong Li
   
@@ -349,7 +349,7 @@
 ## Synthesis
  
 1.
-    ### Crossviewdiff: A cross-view diffusion model for satellite-to-street view synthesis [(arXiv 2024)](https://arxiv.org/abs/2408.14765)
+    ### CrossViewDiff: A Cross-View Diffusion Model for Satellite-to-Street View Synthesis [(arXiv 2024)](https://arxiv.org/abs/2408.14765)
   
     **Authors:** Weijia Li, Jun He, Junyan Ye, Huaping Zhong, Zhimeng Zheng, Zilong Huang, Dahua Lin, Conghui He
   
@@ -377,7 +377,7 @@
     ---
 
 1.
-    ###  Geometry-guided street-view panorama synthesis from satellite imagery [(TPAMI 2022)](https://ieeexplore.ieee.org/abstract/document/9674229)
+    ###  Geometry-Guided Street-View Panorama Synthesis From Satellite Imagery [(TPAMI 2022)](https://ieeexplore.ieee.org/abstract/document/9674229)
   
     **Authors:** Yujiao Shi, Dylan Campbell, Xin Yu, Hongdong Li
   
@@ -401,9 +401,39 @@
     </details>
 
     [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_Geometry-Aware_Satellite-to-Ground_Image_Synthesis_for_Urban_Areas_CVPR_2020_paper.pdf) | [BibTeX](./citations/lu2020geometry)
-    
+
+    ---
+  
 1.
-    ###  Predicting ground-level scene layout from aerial imagery [(CVPR 2017)](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.html)
+    ###  Multi-Channel Attention Selection GAN With Cascaded Semantic Guidance for Cross-View Image Translation [(CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Tang_Multi-Channel_Attention_Selection_GAN_With_Cascaded_Semantic_Guidance_for_Cross-View_CVPR_2019_paper.html)
+  
+    **Authors:** Hao Tang, Dan Xu, Nicu Sebe, Yanzhi Wang, Jason J. Corso, Yan Yan
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Cross-view image translation is challenging because it involves images with drastically different views and severe deformation. In this paper, we propose a novel approach named Multi-Channel Attention SelectionGAN (SelectionGAN) that makes it possible to generate images of natural scenes in arbitrary viewpoints, based on an image of the scene and a novel semantic map. The proposed SelectionGAN explicitly utilizes the semantic information and consists of two stages. In the first stage, the condition image and the target semantic map are fed into a cycled semantic-guided generation network to produce initial coarse results. In the second stage, we refine the initial results by using a multi-channel attention selection mechanism. Moreover, uncertainty maps automatically learned from attentions are used to guide the pixel loss for better network optimization. Extensive experiments on Dayton, CVUSA and Ego2Top datasets show that our model is able to generate significantly better results than the state-of-the-art methods. The source code, data and trained models are available at https://github.com/Ha0Tang/SelectionGAN.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_Multi-Channel_Attention_Selection_GAN_With_Cascaded_Semantic_Guidance_for_Cross-View_CVPR_2019_paper.pdf) | [Code](https://github.com/Ha0Tang/SelectionGAN) | [arXiv](https://arxiv.org/abs/1904.06807) | [BibTeX](./citations/tang2019multi)
+    
+    ---
+
+ 1.
+    ###  Cross-View Image Synthesis Using Conditional GANs [(CVPR 2018)](https://openaccess.thecvf.com/content_cvpr_2018/html/Regmi_Cross-View_Image_Synthesis_CVPR_2018_paper.html)
+  
+    **Authors:** Krishna Regmi, Ali Borji
+  
+    <details span>
+    <summary><b>Abstract</b></summary>
+    Learning to generate natural scenes has always been a challenging task in computer vision. It is even more painstaking when the generation is conditioned on images with drastically different views. This is mainly because understanding, corresponding, and transforming appearance and semantic information across the views is not trivial. In this paper, we attempt to solve the novel problem of cross-view image synthesis, aerial to street-view and vice versa, using conditional generative adversarial networks (cGAN). Two new architectures called Crossview Fork (X-Fork) and Crossview Sequential (X-Seq) are proposed to generate scenes with resolutions of 64×64 and 256×256 pixels. X-Fork architecture has a single discriminator and a single generator. The generator hallucinates both the image and its semantic segmentation in the target view. X-Seq architecture utilizes two cGANs. The first one generates the target image which is subsequently fed to the second cGAN for generating its corresponding semantic segmentation map. The feedback from the second cGAN helps the first cGAN generate sharper images. Both of our proposed architectures learn to generate natural images as well as their semantic segmentation maps. The proposed methods show that they are able to capture and maintain the true semantics of objects in source and target views better than the traditional image-to-image translation method which considers only the visual appearance of the scene. Extensive qualitative and quantitative evaluations support the effectiveness of our frameworks, compared to two state of the art methods, for natural scene generation across drastically different views.
+    </details>
+
+    [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Regmi_Cross-View_Image_Synthesis_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1803.03396v2) | [BibTeX](./citations/regmi2018cross)
+    
+    ---
+
+1.
+    ###  Predicting Ground-Level Scene Layout From Aerial Imagery [(CVPR 2017)](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.html)
   
     **Authors:** Menghua Zhai, Zachary Bessinger, Scott Workman, Nathan Jacobs
   
@@ -413,34 +443,6 @@
     </details>
 
     [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhai_Predicting_Ground-Level_Scene_CVPR_2017_paper.pdf) | [arXiv](https://arxiv.org/abs/1612.02709v1) | [BibTeX](./citations/zhai2017predicting)
-    
-    ---
-
-  1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
-    
-    ---
-
-    1.
-    ###  [()]()
-  
-    **Authors:** 
-  
-    <details span>
-    <summary><b>Abstract</b></summary>
-    
-    </details>
-
-    [Paper]() | [Code]() | [arXiv]() | [BibTeX](./citations/)
     
     ---
 
